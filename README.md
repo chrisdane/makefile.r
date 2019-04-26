@@ -5,7 +5,7 @@ Writing makefiles in a convenient way. See also the [MakefileR package of Mülle
 # How to
 Output of the command
 ```
-$ ./makefile.r
+$ ./makefile.r -m # or --dry
 ```
 
 ```
