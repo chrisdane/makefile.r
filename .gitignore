@@ -3,5 +3,5 @@
 
 # except
 !makefile.r
-!make.log
+!README.md
 !.gitignore
