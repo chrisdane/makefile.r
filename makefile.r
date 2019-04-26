@@ -117,7 +117,12 @@ for (obji in 1:length(OBJECTS)) {
 
     # to do here: check if file is older or different than actual
     if (F) {
-
+        # https://unix.stackexchange.com/questions/372857/compare-two-file-modification-dates
+        # [ file1 -nt file2 ] && echo "yes"
+        # file f1 is newer than f2
+        # touch file2; sleep 0.4; touch file1; [ file1 -nt file2 ] && echo "yes"
+        # touch file2; sleep 0.5; touch file1; [ file1 -nt file2 ] && echo "yes"
+        # yes --> tolerance of 0.5 sec o_O
 
     # (re-)building object nesessary
     } else if (T) {
