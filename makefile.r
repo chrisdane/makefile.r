@@ -31,7 +31,8 @@ if (length(args) == 0) {
 verbose <- F
 
 message("###################################################################")
-message("   make", ifelse(dry, " --dry ", " [hint: -m or --dry for dry run] "), paste0(targets, collapse=" "))
+message("   make", ifelse(dry, " --dry ", " [hint: -m or --dry for dry run] "), 
+        paste0(targets, collapse=" "))
 message("   https://www.dkrz.de/up/systems/mistral/programming#section-2")
 message("###################################################################")
 #stop("asd")

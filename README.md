@@ -1,6 +1,6 @@
 # makefile.r
 
-Writing makefiles in a convenient way. See also the [MakefileR package of Müller (2016)](https://cran.r-project.org/web/packages/MakefileR/vignettes/demo.html).
+Writing makefiles with minimal hard-coded version numbers and without the annoying `make` syntax. See also the [MakefileR package of Müller (2016)](https://cran.r-project.org/web/packages/MakefileR/vignettes/demo.html).
 
 # How to
 Output of the command
